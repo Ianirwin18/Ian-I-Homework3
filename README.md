@@ -2,4 +2,9 @@
 
 Added started code
 
-add var's for my numerics and such for the generator
+Add var's for my numerics and such for the generator
+
+Added generate password function
+
+Add user selection function
+
