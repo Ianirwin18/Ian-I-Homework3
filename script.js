@@ -10,14 +10,14 @@ var uppercaseCharacaters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K
 var generateBtn = document.querySelector("#generate");
 
 function writePassword() {
-  var password = generatePassword();
+  var password = genPassword();
   var passwordText = document.querySelector("#password");
   var generatePassword = 
 
   passwordText.value = password;
 }
 
-function generatePassword() {
+function genPassword() {
     let selectedOpt = userSelections()
 
     if (selectedOpt === undefined) {
@@ -62,17 +62,13 @@ if (numberOfCharacters < 8){
     alert("You may not slect more than 128 characters")
 }
 
-var lowercaseCharacters = window.confirm("Would you like lowercase letters?");
-console.log(lowercaseCharacters)
+let lowercaseCharacters = confirm("Would you like lowercase letters?");
 
-var uppercaseCharacaters = window.confirm("Would you like uppercase letters?");
-console.log(uppercaseCharacaters)
+let uppercaseCharacaters = confirm("Would you like uppercase letters?");
 
-var specialCharacters = window.confirm("WOuld you like special characters?");
-console.log(specialCharacters)
+let specialCharacters = confirm("WOuld you like special characters?");
 
-var numerics = window.confirm("Would you like numerics");
-console.log(numerics)
+let numerics = confirm("Would you like numerics");
 
 if (!lowercaseCharacters && !uppercaseCharacaters && !specialCharacters && !numerics) {
     alert("You must select atleast one charcater type.")

@@ -8,3 +8,6 @@ Added generate password function
 
 Add user selection function
 
+made peramiters for user to follow, like a limit and maxium amount of charcaters
+
+tested for functionality 
