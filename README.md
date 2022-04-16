@@ -15,4 +15,8 @@ tested for functionality
 
 added event listener
 
-[](../../Screen Shot 2022-04-15 at 4.21.50 PM.png)
+* Functionality *
+
+When you click the generate password button it now alerts you to get user selection
+
+then after the selections are complete it gives you a randomized password.
